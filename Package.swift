@@ -10,6 +10,7 @@ let package = Package(
         .library(name: "FeatherStorage", targets: ["FeatherStorage"]),
         .library(name: "FeatherFileStorage", targets: ["FeatherFileStorage"]),
         .library(name: "FeatherS3Storage", targets: ["FeatherS3Storage"]),
+        .library(name: "SotoS3", targets: ["SotoS3"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio", from: "2.51.0"),
